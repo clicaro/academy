@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Accordion Item 7 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:background="@drawable/border"
+            android:padding="8dp"
+            android:clickable="true"
+            android:id="@+id/accordion7">
+
+            <TextView
+                android:id="@+id/title7"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="O QUE E INVESTIMENTO"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:padding="8dp"
+                android:textColor="#000000"/>
+
+            <TextView
+                android:id="@+id/icon7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#800080"/>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/image7"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:visibility="gone"
+            android:src="@drawable/invesmento"
+            android:scaleType="centerCrop"
+            android:contentDescription="Investimentos"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Conteúdo 7 -->
+        <TextView
+            android:id="@+id/content7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:padding="8dp"
+            android:text="@string/content_investimento"
+            android:textColor="#555555"
+            />
+
+
+        <!-- Accordion Item 1 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:background="@drawable/border"
+            android:padding="8dp"
+            android:clickable="true"
+            android:id="@+id/accordion1">
+
+            <TextView
+                android:id="@+id/title1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="COMO COMEÇAR A INVESTIR"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:padding="8dp"
+                android:textColor="#000000"/>
+
+            <TextView
+                android:id="@+id/icon1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#800080"/>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/image1"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:visibility="gone"
+            android:src="@drawable/comecarainvestir"
+            android:scaleType="centerCrop"
+            android:contentDescription="Como começar a investir"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Conteúdo 1 -->
+        <TextView
+            android:id="@+id/content1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:padding="8dp"
+            android:text="@string/content_invest"
+            android:textColor="#555555"
+            />
+
+
+
+        <!-- Accordion Item 2 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:background="@drawable/border"
+            android:padding="8dp"
+            android:clickable="true"
+            android:id="@+id/accordion2">
+
+            <TextView
+                android:id="@+id/title2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="BONS HABITOS FINANCEIROS"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:padding="8dp"
+                android:textColor="#000000"/>
+
+            <TextView
+                android:id="@+id/icon2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#800080"/>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/image2"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:visibility="gone"
+            android:src="@drawable/bonshabitosfinanceiros"
+            android:scaleType="centerCrop"
+            android:contentDescription="Bons Habitos Financeiros"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Conteúdo 2 -->
+        <TextView
+            android:id="@+id/content2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/content_habitos_financeiros"
+            android:visibility="gone"
+            android:padding="8dp"
+            android:textColor="#555555" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:background="@drawable/border"
+            android:padding="8dp"
+            android:clickable="true"
+            android:id="@+id/accordion3">
+
+            <TextView
+                android:id="@+id/title3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="PORQUE APOSTAS NÃO SÃO INVESTIMENTOS"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:padding="8dp"
+                android:textColor="#000000"/>
+
+            <TextView
+                android:id="@+id/icon3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#800080"/>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/image3"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:visibility="gone"
+            android:src="@drawable/apostas"
+            android:scaleType="centerCrop"
+            android:contentDescription="Apostas"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Conteúdo 3 -->
+        <TextView
+            android:id="@+id/content3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/content_apostas_nao_investimento"
+            android:visibility="gone"
+            android:padding="8dp"
+            android:textColor="#555555" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:background="@drawable/border"
+            android:padding="8dp"
+            android:clickable="true"
+            android:id="@+id/accordion4">
+
+            <TextView
+                android:id="@+id/title4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="LOGICA DOS CASSINOS E PORQUE ELES TE FAZEM PERDER"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:padding="8dp"
+                android:textColor="#000000"/>
+
+            <TextView
+                android:id="@+id/icon4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#800080"/>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/image4"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:visibility="gone"
+            android:src="@drawable/cassino"
+            android:scaleType="centerCrop"
+            android:contentDescription="Cassino"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Conteúdo 4 -->
+        <TextView
+            android:id="@+id/content4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/content_logica_cassinos"
+            android:visibility="gone"
+            android:padding="8dp"
+            android:textColor="#555555" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:background="@drawable/border"
+            android:padding="8dp"
+            android:clickable="true"
+            android:id="@+id/accordion5">
+
+            <TextView
+                android:id="@+id/title5"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="RENDA FIXA"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:padding="8dp"
+                android:textColor="#000000"/>
+
+            <TextView
+                android:id="@+id/icon5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#800080"/>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/image5"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:visibility="gone"
+            android:src="@drawable/rendafixa"
+            android:scaleType="centerCrop"
+            android:contentDescription="Renda Fixa"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Conteúdo 5 -->
+        <TextView
+            android:id="@+id/content5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/content_renda_fixa"
+            android:visibility="gone"
+            android:padding="8dp"
+            android:textColor="#555555" />
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:background="@drawable/border"
+            android:padding="8dp"
+            android:clickable="true"
+            android:id="@+id/accordion6">
+
+            <TextView
+                android:id="@+id/title6"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="RENDA VARIAVEL"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:padding="8dp"
+                android:textColor="#000000"/>
+
+            <TextView
+                android:id="@+id/icon6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#800080"/>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/image6"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:visibility="gone"
+            android:src="@drawable/rendavariavel"
+            android:scaleType="centerCrop"
+            android:contentDescription="Renda Variavel"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Conteúdo 6 -->
+        <TextView
+            android:id="@+id/content6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/content_renda_variavel"
+            android:visibility="gone"
+            android:padding="8dp"
+            android:textColor="#555555" />
+
+
+
+        <!-- Accordion Item 8 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:background="@drawable/border"
+            android:padding="8dp"
+            android:clickable="true"
+            android:id="@+id/accordion8">
+
+            <TextView
+                android:id="@+id/title8"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="CRIPTOMOEDAS"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:padding="8dp"
+                android:textColor="#000000"/>
+
+            <TextView
+                android:id="@+id/icon8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#800080"/>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/image8"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:visibility="gone"
+            android:src="@drawable/criptomoedass"
+            android:scaleType="centerCrop"
+            android:contentDescription="criptomoedas"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Conteúdo 8 -->
+        <TextView
+            android:id="@+id/content8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:padding="8dp"
+            android:text="@string/content_criptomoedas"
+            android:textColor="#555555"
+            />
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>
